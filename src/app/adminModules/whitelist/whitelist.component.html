@@ -1,0 +1,17 @@
+<div class="main">
+    <h2>Whitelist</h2>
+    <div><button>Add</button></div>
+    <table class="table">
+        <thead>
+            <tr><th>Name</th><th>UUID</th><th>Action</th></tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of whitelist">
+                <td>{{item.name}}</td>
+                <td>{{item.uuid}}</td>
+                <td><button>Edit</button> <button>Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <app-file-selector [fileResults]="processList($event)"></app-file-selector> -->
+</div>

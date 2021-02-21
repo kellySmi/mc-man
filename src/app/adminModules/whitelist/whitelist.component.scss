@@ -1,0 +1,24 @@
+.main{
+    background-color: rgba(233, 205, 168, 0.795);
+    width:800px;
+    height:400px;
+    padding:20px;
+}
+.table {
+    border: 1px solid #000;
+    text-align: center;
+    border-spacing: 0px;
+}
+.table{
+    min-width:400px;
+    margin: 10px;
+}
+.table th, .table td {
+    min-width: 250px;
+    text-align: center;
+    margin: 0;
+}
+.table tr td {
+    border: 1px solid #000;
+    border-bottom: 0px; 
+}
